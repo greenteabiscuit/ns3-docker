@@ -3,6 +3,7 @@
 After cloning:
 
 ```
+$ brew install wget
 $ make
 ```
 
