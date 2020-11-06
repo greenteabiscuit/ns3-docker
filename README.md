@@ -7,4 +7,4 @@ $ brew install wget
 $ make
 ```
 
-This will take about an hour.
+It may be better to allocate more than 5GB of RAM to docker. This will take about an hour.
