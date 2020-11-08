@@ -33,6 +33,6 @@ To run a simple example:
 
 ```
 root@2f8a9dd3266e:/usr# cd ns3/ns-3.30
-root@2f8a9dd3266e:/usr# ./waf --pyrun src/flow-monitor/examples/wifi-olsr-flowmon.py --vis 
+root@2f8a9dd3266e:/usr/ns3/ns-3.30# ./waf --pyrun src/flow-monitor/examples/wifi-olsr-flowmon.py --vis 
 
 ```
