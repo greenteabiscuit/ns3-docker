@@ -11,4 +11,4 @@ build: Dockerfile
 	docker build -t $(NAME) .
 
 run:
-	docker run --rm -it -v `pwd`/ns-allinone-3.30/ns-3.30/:/usr/ns3/ns-3.30 -e DISPLAY=docker.for.mac.host.internal:0 $(NAME)
+	docker run --rm -it -w /usr/ns3/ns-3.30 -v `pwd`/ns-allinone-3.30/ns-3.30/:/usr/ns3/ns-3.30 -e DISPLAY=docker.for.mac.host.internal:0 $(NAME)
